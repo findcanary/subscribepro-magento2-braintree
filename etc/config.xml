@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <swarming_subscribepro>
+            <third_party_payment>
+                <method_vault>braintree_cc_vault</method_vault>
+            </third_party_payment>
+        </swarming_subscribepro>
+    </default>
+</config>
