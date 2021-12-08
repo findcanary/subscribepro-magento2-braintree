@@ -10,7 +10,7 @@
     <type name="Swarming\SubscribePro\Model\Config\Source\ThirdPartyPaymentVault">
         <arguments>
             <argument name="supportedVaults" xsi:type="array">
-                <item name="braintree" xsi:type="string">braintree_cc_vault</item>
+                <item name="braintree_cc_vault" xsi:type="string">braintree_cc_vault</item>
             </argument>
         </arguments>
     </type>
