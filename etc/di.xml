@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Swarming\SubscribePro\Model\Config\Source\ThirdPartyPaymentMethod">
+        <arguments>
+            <argument name="supportedMethods" xsi:type="array">
+                <item name="braintree" xsi:type="string">braintree</item>
+            </argument>
+        </arguments>
+    </type>
+    <type name="Swarming\SubscribePro\Model\Config\Source\ThirdPartyPaymentVault">
+        <arguments>
+            <argument name="supportedVaults" xsi:type="array">
+                <item name="braintree_cc_vault" xsi:type="string">braintree_cc_vault</item>
+            </argument>
+        </arguments>
+    </type>
+    <type name="Swarming\SubscribePro\Service\Payment\PaymentProfileDataBuilderPool">
+        <arguments>
+            <argument name="paymentProfileDataBuilders" xsi:type="array">
+                <item name="braintree" xsi:type="object">Swarming\SubscribeProBraintree\Service\PaymentProfileDataBuilder</item>
+            </argument>
+        </arguments>
+    </type>
+</config>
