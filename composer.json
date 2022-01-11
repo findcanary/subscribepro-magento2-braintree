@@ -1,0 +1,31 @@
+{
+    "name": "subscribepro/subscribepro-magento2-braintree",
+    "description": "Subscribe Pro Magento 2 Braintree Integration",
+    "type": "magento2-module",
+    "license": [
+        "MIT"
+    ],
+    "version": "1.0.0",
+    "require": {
+        "paypal/module-braintree-core": "^4.2",
+        "subscribepro/subscribepro-magento2-ext": "^1.5.8"
+    },
+    "authors": [
+        {
+            "name": "SUBSCRIBE PRO INC",
+            "homepage": "https://www.subscribepro.com"
+        },
+        {
+            "name": "FindCanary Team",
+            "homepage": "https://findcanary.com/"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Swarming\\SubscribeProBraintree\\": ""
+        }
+    }
+}
